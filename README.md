@@ -1,4 +1,4 @@
-#** Simple Marketplace Walkthrough**
+# **Simple Marketplace Walkthrough**
 
 **Server setup in Visual Studio Code**
 
