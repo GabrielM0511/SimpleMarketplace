@@ -1,4 +1,4 @@
- **How to run Simple Marketplace API**
+#** Simple Marketplace Walkthrough**
 
 **Server setup in Visual Studio Code**
 
