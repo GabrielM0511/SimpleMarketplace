@@ -16,7 +16,7 @@ For Authentication, we decided to use JWT and Postman Headers, authentication wi
 - Then, ensure that “Body”, “raw” and “JSON” options are selected and provide the following JSON file (“admin” is just an example, it could be anything):
 - Lastly, the preview pane contains your token, use this for some of the methods in CRUD.
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.002.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.002.png)
 
 **CRUD Functionality**
 
