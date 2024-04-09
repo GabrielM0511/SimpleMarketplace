@@ -1,10 +1,10 @@
-﻿**How to run Simple Marketplace API**
+ **How to run Simple Marketplace API**
 
 **Server setup in Visual Studio Code**
 
 To start the server, simply run “npm run server”. After running that, the console should look something like this:
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.001.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.001.png)
 
 Although there are no database files in the project, all of the entries are actually being saved in Gabriel's MongoDB.
 
@@ -47,22 +47,22 @@ For Authentication, we decided to use JWT and Postman Headers, authentication wi
 
 }
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.003.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.003.png)
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.004.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.004.png)
 
 
 
 - **Read (GET):** To fetch an entry from the MongoDB, follow these steps:
   - To fetch all entries in postman, use the following URL <http://localhost:3000/products> 
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.005.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.005.png)
 
 
 
 - To fetch a specific entry in postman, use the following URL (place the product id at the end of the URL) [http://localhost:3000/products/<product_id_here](http://localhost:3000/products/\<product_id_here)> 
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.006.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.006.png)
 
 
 
@@ -73,9 +73,9 @@ For Authentication, we decided to use JWT and Postman Headers, authentication wi
     - Key: “Authorization”
     - Value: “YOUR TOKEN KEY”
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.007.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.007.png)
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.008.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.008.png)
 
 - **Delete (DELETE):** To delete an entry from the MongoDB, follow these steps:
   - To delete a specific entry in postman, use the following URL (place the product id at the end of the URL) [http://localhost:3000/products/<product_id_here](http://localhost:3000/products/\<product_id_here)>
@@ -83,6 +83,6 @@ For Authentication, we decided to use JWT and Postman Headers, authentication wi
     - Key: “Authorization”
     - Value: “YOUR TOKEN KEY”
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.009.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.009.png)
 
-![](Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.010.png)
+![](images/Aspose.Words.4ff9a4f7-2baf-417e-8205-f9c2c87ae072.010.png)
